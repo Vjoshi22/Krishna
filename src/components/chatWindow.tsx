@@ -98,7 +98,7 @@ export default class ChatWindow extends React.Component<IChatWindowProps, IChatW
                                 <section className={`${styles.avenueMessenger} ${styles.bottom}`} onClick={() => this.minimizeChatPop(false)}>
                                     <div>
                                         <Icon className={`ms-fontSize-18`} iconName={`ChatBot`} ></Icon>
-                                        Ask Indie
+                                        Ask me
                                     </div>
                                 </section>
                                 :
@@ -118,13 +118,13 @@ export default class ChatWindow extends React.Component<IChatWindowProps, IChatW
                                 </div>
                                 <div className={styles.chat}>
                                     <div className={styles.chatTitle}>
-                                        <h1>Ask Indie</h1>
-                                        <h2>Your SharePoint assistant</h2>
+                                        <h1>Ask Me</h1>
+                                        <h2>Your Sharepoint Expert</h2>
                                     </div>
                                     <div className={styles.messages} id={`chatMessages`}>
                                             {/* <iframe src='https://webchat.botframework.com/embed/DocumentSearchBot?s=MNfoXP6exHk.KOuGdV4HNrHCrG8icMWZRjtip4VbRWWJM05yK7DQvDg%27'></iframe> */}
                                             
-                                            <iframe src='https://webchat.botframework.com/embed/DocumentSearchBot?s=MNfoXP6exHk.KOuGdV4HNrHCrG8icMWZRjtip4VbRWWJM05yK7DQvDg'></iframe>
+                                            <iframe className={styles.iframe} src='https://webchat.botframework.com/embed/DocumentSearchBot?s=MNfoXP6exHk.KOuGdV4HNrHCrG8icMWZRjtip4VbRWWJM05yK7DQvDg'></iframe>
                                             
 
                                             {/* {

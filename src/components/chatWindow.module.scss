@@ -1,5 +1,10 @@
 @import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
 
+.iframe{
+  display: block;
+  height: 100%;
+  border: 0px;
+}
 .chatWindow{
 
     float: right;
@@ -21,7 +26,7 @@
         height: 50px !important;       
         min-height: inherit !important;
         width: 150px !important;
-        background-color: $ms-color-themePrimary;
+        background-color: #0078d4;
         cursor: pointer;
         >div {
           margin: 13px 10px 10px 20px;
@@ -117,7 +122,7 @@ Mixins
   .chat {
     @include center;
     width: 100%;
-    height: calc(100% - 15px);
+    height: calc(100% - 0px);
     max-height: 500px;
     z-index: 10;
     overflow: hidden;
@@ -149,6 +154,7 @@ Mixins
     background-color:#fff;
     text-transform: uppercase;
     text-align: center;
+    background-color: #0078D4;
   
     h1,
     h2 {
@@ -527,7 +533,7 @@ Mixins
   
   .avenueMessenger div {
       font-size: 14px;
-      color:#232323;
+      color: white;
   }
   
   
@@ -640,12 +646,12 @@ Mixins
   }
   
   .menu .button {
-      font-size: 30px;
+      font-size: 18px;
       margin-right: 10px;
       margin-top: 12px;
       z-index:12;
       text-align: right;
-      color: #333;
+      color:white;
       content: "...";
       display: block;
       width: 48px;
